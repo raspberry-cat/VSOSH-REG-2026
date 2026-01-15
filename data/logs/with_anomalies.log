@@ -1,0 +1,200 @@
+10.0.0.171 - bob [14/Jan/2026:10:46:26 +0000] "POST /images/logo.png HTTP/1.1" 404 2231 "https://example.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.111
+10.0.0.158 - alice [14/Jan/2026:10:45:17 +0000] "POST / HTTP/1.1" 304 4775 "https://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.265
+10.0.0.194 - alice [14/Jan/2026:10:47:20 +0000] "GET / HTTP/1.1" 404 730 "https://news.ycombinator.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.190
+10.0.0.111 - - [14/Jan/2026:10:46:49 +0000] "POST /about HTTP/1.1" 200 7397 "https://news.ycombinator.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.358
+10.0.0.132 - - [14/Jan/2026:10:44:55 +0000] "POST /pricing HTTP/1.1" 200 5765 "https://google.com/search?q=shop" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.066
+203.0.113.89 - - [14/Jan/2026:13:48:45 +0000] "PUT /.env HTTP/1.1" 502 19080 "-" "sqlmap/1.7.2" 2.537
+10.0.0.114 - alice [14/Jan/2026:10:45:55 +0000] "POST /logout HTTP/1.1" 404 6341 "https://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.127
+203.0.113.186 - - [14/Jan/2026:13:48:51 +0000] "TRACE /admin HTTP/1.1" 403 7407 "-" "nikto/2.5" 1.531
+203.0.113.95 - intruder [14/Jan/2026:13:48:40 +0000] "PUT /.env HTTP/1.1" 403 16845 "-" "sqlmap/1.7.2" 2.486
+10.0.0.90 - - [14/Jan/2026:10:46:47 +0000] "GET /pricing HTTP/1.1" 200 4366 "-" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.267
+10.0.0.85 - - [14/Jan/2026:10:45:35 +0000] "POST /static/app.js HTTP/1.1" 204 791 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.106
+10.0.0.236 - - [14/Jan/2026:10:47:25 +0000] "GET /static/styles.css HTTP/1.1" 200 2530 "https://google.com/search?q=shop" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.229
+10.0.0.58 - bob [14/Jan/2026:10:45:38 +0000] "GET /index.html HTTP/1.1" 404 3244 "https://example.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.149
+10.0.0.81 - - [14/Jan/2026:10:46:33 +0000] "POST / HTTP/1.1" 404 3114 "https://example.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.328
+10.0.0.201 - - [14/Jan/2026:10:45:14 +0000] "GET /index.html HTTP/1.1" 200 5340 "https://example.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.132
+10.0.0.230 - - [14/Jan/2026:10:47:09 +0000] "GET /api/v1/cart HTTP/1.1" 304 3374 "https://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.310
+10.0.0.41 - alice [14/Jan/2026:10:45:47 +0000] "GET /static/app.js HTTP/1.1" 301 3791 "https://news.ycombinator.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.237
+10.0.0.56 - - [14/Jan/2026:10:45:45 +0000] "POST /images/logo.png HTTP/1.1" 200 5276 "https://example.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.382
+10.0.0.54 - - [14/Jan/2026:10:44:39 +0000] "GET /static/styles.css HTTP/1.1" 404 7896 "https://example.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.342
+10.0.0.35 - - [14/Jan/2026:10:47:16 +0000] "POST /about HTTP/1.1" 200 3271 "-" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.299
+10.0.0.200 - - [14/Jan/2026:10:45:52 +0000] "GET /logout HTTP/1.1" 404 5030 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.347
+10.0.0.51 - - [14/Jan/2026:10:47:28 +0000] "GET /pricing HTTP/1.1" 404 2671 "https://example.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.258
+10.0.0.24 - bob [14/Jan/2026:10:45:48 +0000] "GET /index.html HTTP/1.1" 200 4876 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.219
+10.0.0.82 - alice [14/Jan/2026:10:46:19 +0000] "GET /static/styles.css HTTP/1.1" 200 743 "https://google.com/search?q=shop" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.316
+203.0.113.205 - - [14/Jan/2026:13:48:42 +0000] "PUT /wp-admin HTTP/1.1" 401 18826 "-" "curl/8.4.0" 3.322
+10.0.0.42 - alice [14/Jan/2026:10:47:32 +0000] "GET /about HTTP/1.1" 200 7596 "-" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.093
+10.0.0.147 - - [14/Jan/2026:10:45:54 +0000] "GET / HTTP/1.1" 304 1914 "https://google.com/search?q=shop" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.213
+10.0.0.134 - bob [14/Jan/2026:10:44:47 +0000] "POST /api/v1/items HTTP/1.1" 200 4558 "-" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.153
+203.0.113.80 - - [14/Jan/2026:13:48:41 +0000] "TRACE /cgi-bin/.%2e/.%2e/.%2e/etc/passwd HTTP/1.1" 405 7048 "-" "curl/8.4.0" 4.413
+10.0.0.240 - bob [14/Jan/2026:10:45:10 +0000] "GET /index.html HTTP/1.1" 200 3085 "https://example.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.079
+10.0.0.114 - bob [14/Jan/2026:10:44:54 +0000] "POST / HTTP/1.1" 404 6535 "https://example.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.241
+10.0.0.133 - bob [14/Jan/2026:10:45:37 +0000] "GET /login HTTP/1.1" 304 1407 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.176
+10.0.0.27 - alice [14/Jan/2026:10:47:05 +0000] "GET /login HTTP/1.1" 301 7529 "https://news.ycombinator.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.340
+10.0.0.33 - - [14/Jan/2026:10:46:13 +0000] "POST /pricing HTTP/1.1" 304 5300 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.160
+10.0.0.43 - - [14/Jan/2026:10:44:57 +0000] "GET /static/app.js HTTP/1.1" 200 7834 "https://news.ycombinator.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.341
+10.0.0.132 - bob [14/Jan/2026:10:45:27 +0000] "GET /logout HTTP/1.1" 204 5071 "https://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.049
+10.0.0.150 - service [14/Jan/2026:10:45:28 +0000] "POST /static/app.js HTTP/1.1" 301 648 "https://news.ycombinator.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.363
+10.0.0.154 - - [14/Jan/2026:10:46:16 +0000] "GET / HTTP/1.1" 302 1751 "https://news.ycombinator.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.361
+10.0.0.32 - - [14/Jan/2026:10:47:03 +0000] "GET /static/app.js HTTP/1.1" 204 7286 "https://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.071
+10.0.0.167 - - [14/Jan/2026:10:44:53 +0000] "GET /api/v1/cart HTTP/1.1" 200 1212 "https://news.ycombinator.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.333
+10.0.0.143 - - [14/Jan/2026:10:44:58 +0000] "GET /login HTTP/1.1" 200 7083 "https://news.ycombinator.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.106
+10.0.0.77 - service [14/Jan/2026:10:44:38 +0000] "POST / HTTP/1.1" 304 6512 "https://news.ycombinator.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.101
+10.0.0.232 - service [14/Jan/2026:10:47:38 +0000] "GET /about HTTP/1.1" 304 5974 "https://google.com/search?q=shop" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.310
+10.0.0.222 - - [14/Jan/2026:10:46:44 +0000] "POST /static/styles.css HTTP/1.1" 200 2558 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.022
+10.0.0.85 - service [14/Jan/2026:10:45:02 +0000] "POST /about HTTP/1.1" 304 1755 "https://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.265
+10.0.0.249 - - [14/Jan/2026:10:45:06 +0000] "POST /logout HTTP/1.1" 200 6836 "https://example.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.036
+10.0.0.63 - service [14/Jan/2026:10:45:21 +0000] "POST /pricing HTTP/1.1" 301 4353 "https://example.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.240
+10.0.0.54 - service [14/Jan/2026:10:45:32 +0000] "POST /about HTTP/1.1" 200 2887 "https://example.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.075
+10.0.0.76 - - [14/Jan/2026:10:46:20 +0000] "POST /pricing HTTP/1.1" 200 617 "https://example.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.310
+10.0.0.31 - service [14/Jan/2026:10:46:31 +0000] "POST /login HTTP/1.1" 200 4059 "https://example.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.122
+10.0.0.116 - service [14/Jan/2026:10:46:54 +0000] "GET /api/v1/items HTTP/1.1" 200 689 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.053
+10.0.0.150 - - [14/Jan/2026:10:46:15 +0000] "GET / HTTP/1.1" 404 1470 "https://example.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.394
+10.0.0.242 - bob [14/Jan/2026:10:45:56 +0000] "POST /static/app.js HTTP/1.1" 304 4487 "https://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.031
+10.0.0.22 - - [14/Jan/2026:10:45:20 +0000] "POST /api/v1/items HTTP/1.1" 204 2056 "https://example.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.365
+10.0.0.190 - alice [14/Jan/2026:10:47:07 +0000] "POST / HTTP/1.1" 404 4283 "https://news.ycombinator.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.359
+10.0.0.161 - bob [14/Jan/2026:10:45:40 +0000] "POST /api/v1/cart HTTP/1.1" 301 6044 "https://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.200
+10.0.0.24 - - [14/Jan/2026:10:45:12 +0000] "GET / HTTP/1.1" 301 6694 "https://news.ycombinator.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.090
+10.0.0.135 - service [14/Jan/2026:10:46:55 +0000] "POST / HTTP/1.1" 301 5726 "https://google.com/search?q=shop" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.187
+10.0.0.69 - alice [14/Jan/2026:10:45:43 +0000] "GET /about HTTP/1.1" 301 6813 "https://example.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.042
+203.0.113.182 - - [14/Jan/2026:13:48:43 +0000] "DELETE /.env HTTP/1.1" 502 29520 "-" "curl/8.4.0" 1.505
+10.0.0.115 - alice [14/Jan/2026:10:46:11 +0000] "POST /pricing HTTP/1.1" 200 1524 "https://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.135
+10.0.0.39 - alice [14/Jan/2026:10:46:22 +0000] "POST /static/app.js HTTP/1.1" 200 4388 "https://google.com/search?q=shop" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.391
+10.0.0.130 - - [14/Jan/2026:10:47:39 +0000] "GET /api/v1/items HTTP/1.1" 404 4072 "https://news.ycombinator.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.231
+10.0.0.18 - - [14/Jan/2026:10:44:50 +0000] "POST /pricing HTTP/1.1" 200 5199 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.036
+10.0.0.11 - alice [14/Jan/2026:10:47:08 +0000] "POST /api/v1/items HTTP/1.1" 204 1992 "https://example.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.023
+10.0.0.57 - - [14/Jan/2026:10:47:31 +0000] "POST /static/styles.css HTTP/1.1" 304 1270 "https://example.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.195
+10.0.0.208 - alice [14/Jan/2026:10:45:34 +0000] "POST /static/styles.css HTTP/1.1" 404 7653 "https://news.ycombinator.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.163
+10.0.0.190 - bob [14/Jan/2026:10:47:04 +0000] "POST /login HTTP/1.1" 200 375 "https://news.ycombinator.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.338
+10.0.0.39 - - [14/Jan/2026:10:47:06 +0000] "POST /index.html HTTP/1.1" 204 1714 "https://news.ycombinator.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.040
+10.0.0.164 - service [14/Jan/2026:10:46:59 +0000] "GET /pricing HTTP/1.1" 200 6953 "https://example.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.118
+10.0.0.148 - - [14/Jan/2026:10:45:59 +0000] "GET /api/v1/items HTTP/1.1" 301 4795 "https://example.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.023
+10.0.0.245 - bob [14/Jan/2026:10:46:23 +0000] "GET /about HTTP/1.1" 404 1740 "https://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.210
+10.0.0.180 - bob [14/Jan/2026:10:46:21 +0000] "POST /api/v1/cart HTTP/1.1" 204 1948 "https://google.com/search?q=shop" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.383
+10.0.0.131 - - [14/Jan/2026:10:46:39 +0000] "GET /images/logo.png HTTP/1.1" 404 7645 "https://news.ycombinator.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.270
+10.0.0.26 - bob [14/Jan/2026:10:46:02 +0000] "GET /index.html HTTP/1.1" 200 1519 "https://google.com/search?q=shop" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.364
+10.0.0.205 - bob [14/Jan/2026:10:44:51 +0000] "GET /logout HTTP/1.1" 200 4498 "https://news.ycombinator.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.219
+10.0.0.21 - - [14/Jan/2026:10:46:18 +0000] "POST /static/styles.css HTTP/1.1" 200 7601 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.110
+203.0.113.145 - - [14/Jan/2026:13:48:46 +0000] "DELETE /etc/passwd HTTP/1.1" 405 27773 "-" "curl/8.4.0" 2.595
+10.0.0.89 - bob [14/Jan/2026:10:44:40 +0000] "POST /images/logo.png HTTP/1.1" 200 3948 "https://example.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.330
+10.0.0.169 - bob [14/Jan/2026:10:46:12 +0000] "POST /about HTTP/1.1" 204 6451 "https://google.com/search?q=shop" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.316
+10.0.0.14 - alice [14/Jan/2026:10:45:13 +0000] "POST /login HTTP/1.1" 304 4248 "https://news.ycombinator.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.026
+10.0.0.17 - alice [14/Jan/2026:10:47:01 +0000] "POST /about HTTP/1.1" 204 7977 "https://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.229
+10.0.0.104 - - [14/Jan/2026:10:46:08 +0000] "POST /static/styles.css HTTP/1.1" 204 6582 "https://news.ycombinator.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.082
+10.0.0.239 - - [14/Jan/2026:10:45:51 +0000] "GET /images/logo.png HTTP/1.1" 302 7697 "https://example.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.291
+10.0.0.192 - - [14/Jan/2026:10:47:40 +0000] "GET /about HTTP/1.1" 404 1619 "https://google.com/search?q=shop" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.094
+10.0.0.17 - - [14/Jan/2026:10:46:05 +0000] "GET /images/logo.png HTTP/1.1" 204 1399 "https://google.com/search?q=shop" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.225
+10.0.0.114 - alice [14/Jan/2026:10:45:01 +0000] "GET /login HTTP/1.1" 204 6253 "https://google.com/search?q=shop" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.351
+10.0.0.96 - - [14/Jan/2026:10:47:29 +0000] "GET /login HTTP/1.1" 204 3278 "https://example.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.302
+10.0.0.10 - bob [14/Jan/2026:10:47:18 +0000] "POST /pricing HTTP/1.1" 302 4929 "-" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.190
+10.0.0.38 - alice [14/Jan/2026:10:46:17 +0000] "POST / HTTP/1.1" 404 2575 "https://example.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.082
+10.0.0.250 - service [14/Jan/2026:10:45:00 +0000] "GET /api/v1/items HTTP/1.1" 200 4308 "https://example.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.127
+10.0.0.153 - alice [14/Jan/2026:10:45:53 +0000] "POST /static/app.js HTTP/1.1" 204 1615 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.349
+203.0.113.8 - - [14/Jan/2026:13:48:37 +0000] "TRACE /phpmyadmin HTTP/1.1" 502 24164 "-" "nikto/2.5" 3.493
+10.0.0.97 - - [14/Jan/2026:10:47:00 +0000] "POST /static/styles.css HTTP/1.1" 204 7337 "https://google.com/search?q=shop" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.202
+203.0.113.238 - - [14/Jan/2026:13:48:52 +0000] "DELETE /.env HTTP/1.1" 404 17111 "-" "curl/8.4.0" 1.295
+10.0.0.163 - - [14/Jan/2026:10:47:13 +0000] "GET /static/app.js HTTP/1.1" 404 7334 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.376
+203.0.113.105 - intruder [14/Jan/2026:13:48:39 +0000] "TRACE /.env HTTP/1.1" 403 9724 "-" "sqlmap/1.7.2" 3.136
+10.0.0.64 - bob [14/Jan/2026:10:44:52 +0000] "POST / HTTP/1.1" 200 3612 "https://google.com/search?q=shop" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.290
+10.0.0.105 - bob [14/Jan/2026:10:46:06 +0000] "GET / HTTP/1.1" 200 6848 "https://google.com/search?q=shop" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.152
+10.0.0.28 - bob [14/Jan/2026:10:47:10 +0000] "GET /login HTTP/1.1" 301 5122 "https://google.com/search?q=shop" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.171
+10.0.0.139 - alice [14/Jan/2026:10:45:42 +0000] "GET /login HTTP/1.1" 200 2913 "https://news.ycombinator.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.123
+10.0.0.18 - - [14/Jan/2026:10:47:22 +0000] "GET / HTTP/1.1" 302 4876 "https://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.337
+10.0.0.111 - - [14/Jan/2026:10:46:57 +0000] "GET /logout HTTP/1.1" 200 7788 "-" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.370
+203.0.113.140 - intruder [14/Jan/2026:13:48:44 +0000] "PUT /wp-login.php HTTP/1.1" 500 6813 "-" "nikto/2.5" 1.729
+10.0.0.20 - - [14/Jan/2026:10:45:25 +0000] "POST /static/app.js HTTP/1.1" 301 1324 "https://example.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.377
+10.0.0.223 - - [14/Jan/2026:10:46:09 +0000] "POST /login HTTP/1.1" 200 572 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.156
+10.0.0.220 - alice [14/Jan/2026:10:45:39 +0000] "POST /static/styles.css HTTP/1.1" 304 6236 "https://example.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.144
+10.0.0.242 - - [14/Jan/2026:10:46:07 +0000] "POST /api/v1/items HTTP/1.1" 301 3850 "https://google.com/search?q=shop" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.380
+10.0.0.89 - service [14/Jan/2026:10:46:25 +0000] "POST / HTTP/1.1" 204 5387 "https://google.com/search?q=shop" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.112
+10.0.0.213 - service [14/Jan/2026:10:47:02 +0000] "POST /static/styles.css HTTP/1.1" 304 5657 "https://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.028
+10.0.0.49 - bob [14/Jan/2026:10:46:46 +0000] "POST /images/logo.png HTTP/1.1" 302 617 "https://news.ycombinator.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.253
+10.0.0.192 - - [14/Jan/2026:10:44:48 +0000] "GET /static/styles.css HTTP/1.1" 200 5462 "https://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.254
+203.0.113.128 - - [14/Jan/2026:13:48:47 +0000] "PUT /cgi-bin/.%2e/.%2e/.%2e/etc/passwd HTTP/1.1" 405 8040 "-" "sqlmap/1.7.2" 2.942
+10.0.0.170 - - [14/Jan/2026:10:46:43 +0000] "POST /api/v1/cart HTTP/1.1" 200 4901 "https://google.com/search?q=shop" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.226
+10.0.0.71 - - [14/Jan/2026:10:47:23 +0000] "POST /pricing HTTP/1.1" 200 7161 "https://example.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.121
+10.0.0.172 - - [14/Jan/2026:10:45:15 +0000] "POST /static/app.js HTTP/1.1" 200 4213 "https://google.com/search?q=shop" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.026
+10.0.0.114 - bob [14/Jan/2026:10:46:45 +0000] "POST /about HTTP/1.1" 304 6204 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.220
+10.0.0.93 - service [14/Jan/2026:10:46:30 +0000] "GET /images/logo.png HTTP/1.1" 404 7579 "https://news.ycombinator.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.094
+10.0.0.223 - - [14/Jan/2026:10:47:17 +0000] "POST /static/styles.css HTTP/1.1" 302 2866 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.116
+10.0.0.157 - - [14/Jan/2026:10:45:09 +0000] "POST / HTTP/1.1" 302 7049 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.394
+10.0.0.190 - - [14/Jan/2026:10:46:52 +0000] "POST / HTTP/1.1" 404 5825 "https://news.ycombinator.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.147
+10.0.0.198 - - [14/Jan/2026:10:44:46 +0000] "POST /images/logo.png HTTP/1.1" 304 3118 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.096
+10.0.0.32 - service [14/Jan/2026:10:46:10 +0000] "GET /index.html HTTP/1.1" 302 969 "https://google.com/search?q=shop" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.204
+10.0.0.133 - alice [14/Jan/2026:10:46:41 +0000] "GET /images/logo.png HTTP/1.1" 404 4056 "https://example.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.267
+10.0.0.175 - - [14/Jan/2026:10:46:37 +0000] "GET /logout HTTP/1.1" 200 7216 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.105
+10.0.0.79 - alice [14/Jan/2026:10:45:58 +0000] "GET /static/app.js HTTP/1.1" 301 1913 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.158
+10.0.0.195 - bob [14/Jan/2026:10:46:00 +0000] "POST /login HTTP/1.1" 200 7544 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.161
+10.0.0.13 - - [14/Jan/2026:10:45:04 +0000] "POST /login HTTP/1.1" 301 6643 "https://news.ycombinator.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.207
+10.0.0.153 - - [14/Jan/2026:10:46:29 +0000] "POST /static/app.js HTTP/1.1" 302 2491 "https://news.ycombinator.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.110
+10.0.0.110 - service [14/Jan/2026:10:47:14 +0000] "GET /api/v1/items HTTP/1.1" 200 6157 "https://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.215
+10.0.0.243 - - [14/Jan/2026:10:46:40 +0000] "GET /images/logo.png HTTP/1.1" 304 5808 "https://google.com/search?q=shop" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.084
+10.0.0.68 - bob [14/Jan/2026:10:47:11 +0000] "POST /static/app.js HTTP/1.1" 200 4202 "https://news.ycombinator.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.263
+10.0.0.179 - - [14/Jan/2026:10:47:21 +0000] "POST /logout HTTP/1.1" 204 1135 "https://example.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.395
+10.0.0.187 - alice [14/Jan/2026:10:44:44 +0000] "GET /login HTTP/1.1" 200 7765 "-" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.116
+203.0.113.36 - intruder [14/Jan/2026:13:48:49 +0000] "PUT /etc/passwd HTTP/1.1" 504 16621 "-" "sqlmap/1.7.2" 2.292
+10.0.0.134 - - [14/Jan/2026:10:44:37 +0000] "POST /login HTTP/1.1" 200 1215 "https://news.ycombinator.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.276
+10.0.0.143 - - [14/Jan/2026:10:47:34 +0000] "POST / HTTP/1.1" 302 4153 "https://news.ycombinator.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.032
+10.0.0.113 - - [14/Jan/2026:10:46:51 +0000] "GET /about HTTP/1.1" 302 2600 "https://example.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.195
+10.0.0.217 - alice [14/Jan/2026:10:44:59 +0000] "POST / HTTP/1.1" 301 5569 "https://news.ycombinator.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.264
+203.0.113.239 - intruder [14/Jan/2026:13:48:48 +0000] "TRACE /etc/passwd HTTP/1.1" 401 14561 "-" "curl/8.4.0" 4.802
+10.0.0.248 - bob [14/Jan/2026:10:47:36 +0000] "POST /login HTTP/1.1" 200 4977 "-" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.076
+10.0.0.169 - - [14/Jan/2026:10:47:15 +0000] "POST /index.html HTTP/1.1" 304 1473 "https://google.com/search?q=shop" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.038
+10.0.0.170 - service [14/Jan/2026:10:47:19 +0000] "GET /pricing HTTP/1.1" 200 3801 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.239
+10.0.0.241 - - [14/Jan/2026:10:44:56 +0000] "POST / HTTP/1.1" 404 6838 "https://news.ycombinator.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.021
+203.0.113.100 - intruder [14/Jan/2026:13:48:38 +0000] "DELETE /phpmyadmin HTTP/1.1" 502 20040 "-" "nikto/2.5" 1.745
+10.0.0.200 - service [14/Jan/2026:10:47:30 +0000] "GET /pricing HTTP/1.1" 404 2817 "https://news.ycombinator.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.252
+10.0.0.44 - - [14/Jan/2026:10:46:28 +0000] "POST /api/v1/items HTTP/1.1" 204 598 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.120
+10.0.0.25 - - [14/Jan/2026:10:45:50 +0000] "GET /index.html HTTP/1.1" 200 3063 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.188
+10.0.0.53 - - [14/Jan/2026:10:46:56 +0000] "GET /images/logo.png HTTP/1.1" 200 1299 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.397
+10.0.0.54 - - [14/Jan/2026:10:47:24 +0000] "GET /static/app.js HTTP/1.1" 200 1160 "-" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.307
+10.0.0.244 - service [14/Jan/2026:10:45:22 +0000] "POST /images/logo.png HTTP/1.1" 404 3322 "https://news.ycombinator.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.133
+10.0.0.95 - - [14/Jan/2026:10:47:27 +0000] "GET /static/app.js HTTP/1.1" 404 6479 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.303
+10.0.0.175 - service [14/Jan/2026:10:45:31 +0000] "GET /login HTTP/1.1" 200 1175 "https://example.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.348
+203.0.113.40 - - [14/Jan/2026:13:48:50 +0000] "PUT /cgi-bin/.%2e/.%2e/.%2e/etc/passwd HTTP/1.1" 500 24031 "-" "python-requests/2.32" 1.559
+10.0.0.239 - bob [14/Jan/2026:10:46:36 +0000] "POST /api/v1/items HTTP/1.1" 302 5447 "https://news.ycombinator.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.231
+10.0.0.106 - alice [14/Jan/2026:10:45:44 +0000] "POST /pricing HTTP/1.1" 301 4666 "https://google.com/search?q=shop" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.102
+10.0.0.57 - alice [14/Jan/2026:10:45:18 +0000] "GET /logout HTTP/1.1" 200 5131 "https://example.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.383
+10.0.0.11 - - [14/Jan/2026:10:45:41 +0000] "POST /index.html HTTP/1.1" 204 6718 "https://example.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.336
+10.0.0.133 - service [14/Jan/2026:10:44:43 +0000] "POST /api/v1/cart HTTP/1.1" 301 7387 "-" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.116
+10.0.0.245 - alice [14/Jan/2026:10:47:35 +0000] "GET /api/v1/cart HTTP/1.1" 204 6726 "https://google.com/search?q=shop" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.218
+10.0.0.206 - - [14/Jan/2026:10:45:26 +0000] "GET /images/logo.png HTTP/1.1" 302 5524 "https://news.ycombinator.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.064
+10.0.0.100 - alice [14/Jan/2026:10:46:01 +0000] "GET /pricing HTTP/1.1" 200 7122 "-" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.115
+10.0.0.112 - bob [14/Jan/2026:10:45:49 +0000] "GET / HTTP/1.1" 302 1910 "https://google.com/search?q=shop" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.071
+10.0.0.76 - - [14/Jan/2026:10:45:05 +0000] "GET /about HTTP/1.1" 404 5149 "https://news.ycombinator.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.197
+10.0.0.44 - - [14/Jan/2026:10:44:42 +0000] "GET /api/v1/cart HTTP/1.1" 200 5987 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.169
+10.0.0.97 - alice [14/Jan/2026:10:45:23 +0000] "GET /login HTTP/1.1" 204 3435 "https://example.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.328
+10.0.0.56 - - [14/Jan/2026:10:46:27 +0000] "POST /static/app.js HTTP/1.1" 302 6658 "https://google.com/search?q=shop" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.141
+10.0.0.145 - alice [14/Jan/2026:10:46:32 +0000] "GET /static/styles.css HTTP/1.1" 200 3043 "https://news.ycombinator.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.128
+10.0.0.88 - bob [14/Jan/2026:10:46:03 +0000] "GET /index.html HTTP/1.1" 200 707 "https://google.com/search?q=shop" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.230
+10.0.0.189 - service [14/Jan/2026:10:47:33 +0000] "POST /static/styles.css HTTP/1.1" 200 7395 "https://google.com/search?q=shop" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.230
+10.0.0.221 - service [14/Jan/2026:10:45:46 +0000] "GET /api/v1/items HTTP/1.1" 301 3081 "https://google.com/search?q=shop" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.024
+10.0.0.32 - bob [14/Jan/2026:10:44:49 +0000] "GET /static/styles.css HTTP/1.1" 204 2247 "-" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.187
+10.0.0.24 - - [14/Jan/2026:10:47:26 +0000] "GET /images/logo.png HTTP/1.1" 200 6830 "https://example.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.157
+10.0.0.105 - - [14/Jan/2026:10:46:58 +0000] "POST /api/v1/cart HTTP/1.1" 204 3794 "-" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.212
+10.0.0.236 - - [14/Jan/2026:10:45:33 +0000] "POST /logout HTTP/1.1" 302 1280 "https://news.ycombinator.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.106
+10.0.0.5 - service [14/Jan/2026:10:44:41 +0000] "GET /images/logo.png HTTP/1.1" 302 7074 "https://news.ycombinator.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.370
+10.0.0.48 - service [14/Jan/2026:10:45:07 +0000] "GET /logout HTTP/1.1" 301 360 "https://news.ycombinator.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.370
+10.0.0.128 - alice [14/Jan/2026:10:45:57 +0000] "POST /login HTTP/1.1" 200 1129 "https://google.com/search?q=shop" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.198
+10.0.0.180 - alice [14/Jan/2026:10:47:12 +0000] "POST /api/v1/cart HTTP/1.1" 204 6241 "https://news.ycombinator.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.343
+10.0.0.81 - - [14/Jan/2026:10:46:38 +0000] "GET /images/logo.png HTTP/1.1" 304 4553 "https://google.com/search?q=shop" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.361
+10.0.0.230 - - [14/Jan/2026:10:44:45 +0000] "GET /pricing HTTP/1.1" 404 4538 "https://google.com/search?q=shop" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.179
+10.0.0.203 - - [14/Jan/2026:10:45:03 +0000] "GET /static/app.js HTTP/1.1" 301 4349 "https://google.com/search?q=shop" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.195
+10.0.0.63 - - [14/Jan/2026:10:45:11 +0000] "POST /static/styles.css HTTP/1.1" 302 1985 "https://news.ycombinator.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.284
+10.0.0.153 - - [14/Jan/2026:10:46:48 +0000] "GET /static/styles.css HTTP/1.1" 304 2718 "https://news.ycombinator.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.213
+10.0.0.79 - - [14/Jan/2026:10:45:30 +0000] "POST /api/v1/cart HTTP/1.1" 302 2263 "-" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.210
+10.0.0.245 - service [14/Jan/2026:10:46:42 +0000] "POST /static/styles.css HTTP/1.1" 204 3456 "https://example.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.186
+10.0.0.206 - - [14/Jan/2026:10:45:24 +0000] "GET /static/styles.css HTTP/1.1" 302 3518 "https://news.ycombinator.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.131
+10.0.0.118 - service [14/Jan/2026:10:47:37 +0000] "GET /api/v1/items HTTP/1.1" 301 4535 "https://example.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.398
+10.0.0.242 - alice [14/Jan/2026:10:45:19 +0000] "GET /static/styles.css HTTP/1.1" 200 4135 "https://news.ycombinator.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.248
+10.0.0.188 - alice [14/Jan/2026:10:46:34 +0000] "GET / HTTP/1.1" 200 580 "https://news.ycombinator.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.326
+10.0.0.25 - - [14/Jan/2026:10:45:36 +0000] "GET /images/logo.png HTTP/1.1" 200 7329 "https://google.com/search?q=shop" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.127
+10.0.0.123 - bob [14/Jan/2026:10:46:50 +0000] "GET /login HTTP/1.1" 200 2099 "https://news.ycombinator.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.198
+10.0.0.222 - service [14/Jan/2026:10:45:08 +0000] "POST /pricing HTTP/1.1" 404 7694 "https://example.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.166
+10.0.0.72 - service [14/Jan/2026:10:45:29 +0000] "GET /api/v1/cart HTTP/1.1" 200 7392 "https://news.ycombinator.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.057
+10.0.0.9 - - [14/Jan/2026:10:46:24 +0000] "POST /about HTTP/1.1" 200 4514 "https://google.com/search?q=shop" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.111
+10.0.0.75 - bob [14/Jan/2026:10:46:04 +0000] "GET /index.html HTTP/1.1" 200 7539 "https://google.com/search?q=shop" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" 0.213
+10.0.0.156 - - [14/Jan/2026:10:46:53 +0000] "POST /api/v1/items HTTP/1.1" 200 7225 "https://news.ycombinator.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.099
+10.0.0.238 - - [14/Jan/2026:10:45:16 +0000] "POST / HTTP/1.1" 200 6788 "https://example.com/" "Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36" 0.026
+10.0.0.56 - - [14/Jan/2026:10:46:14 +0000] "GET / HTTP/1.1" 304 2394 "https://google.com/search?q=shop" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.032
+10.0.0.42 - alice [14/Jan/2026:10:46:35 +0000] "POST /static/app.js HTTP/1.1" 304 7912 "https://example.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/537.36" 0.100

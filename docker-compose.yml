@@ -1,0 +1,47 @@
+name: log-anomaly
+
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: logdetector
+      POSTGRES_PASSWORD: logdetector
+      POSTGRES_DB: logdetector
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+  api:
+    build: .
+    environment:
+      DATABASE_URL: postgresql+psycopg://logdetector:logdetector@db:5432/logdetector
+      ARTIFACT_DIR: /app/artifacts
+      MODEL_TYPE: isolation_forest
+      LOG_LEVEL: INFO
+      AUTO_TRAIN_ON_STARTUP: "true"
+      BOOTSTRAP_LOG_PATH: /app/data/logs/normal.jsonl
+      BOOTSTRAP_LOG_FORMAT: jsonl
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./artifacts:/app/artifacts
+      - ./data:/app/data
+    depends_on:
+      - db
+
+  grafana:
+    image: grafana/grafana:10.4.2
+    ports:
+      - "3000:3000"
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: admin
+    volumes:
+      - ./grafana/provisioning:/etc/grafana/provisioning
+      - ./grafana/dashboards:/var/lib/grafana/dashboards
+    depends_on:
+      - db
+
+volumes:
+  db_data:

@@ -1,0 +1,16 @@
+apiVersion: 1
+
+datasources:
+  - name: LogDetectorPostgres
+    uid: log-detector-postgres
+    type: postgres
+    access: proxy
+    url: db:5432
+    database: logdetector
+    user: logdetector
+    secureJsonData:
+      password: logdetector
+    jsonData:
+      sslmode: disable
+      postgresVersion: 1600
+      timescaledb: false
