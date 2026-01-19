@@ -1,12 +1,20 @@
 from __future__ import annotations
 
 import logging
+import time
 from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Literal
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, Response
 from fastapi.responses import HTMLResponse
+from prometheus_client import (
+    CONTENT_TYPE_LATEST,
+    CollectorRegistry,
+    Counter,
+    Gauge,
+    generate_latest,
+)
 from pydantic import BaseModel, Field
 
 from application.features import FeatureExtractor
@@ -19,6 +27,32 @@ from infrastructure.settings import settings
 from infrastructure.storage import Storage
 
 logger = logging.getLogger(__name__)
+_PROM_REGISTRY = CollectorRegistry()
+_ENV_LABEL = settings.environment
+_METRIC_TOTAL = Counter(
+    "log_events_total",
+    "Total ingested log events",
+    ["environment"],
+    registry=_PROM_REGISTRY,
+)
+_METRIC_ANOMALIES = Counter(
+    "log_anomalies_total",
+    "Detected anomalous log events",
+    ["environment"],
+    registry=_PROM_REGISTRY,
+)
+_METRIC_RATE = Gauge(
+    "log_anomaly_rate",
+    "Anomaly rate for ingested logs",
+    ["environment"],
+    registry=_PROM_REGISTRY,
+)
+_LAST_INGEST_TS = Gauge(
+    "log_last_ingest_timestamp",
+    "Unix timestamp of last ingest",
+    ["environment"],
+    registry=_PROM_REGISTRY,
+)
 
 
 def _build_service(storage: Storage, registry: ModelRegistry) -> AnomalyService:
@@ -98,6 +132,11 @@ def ingest(request: IngestRequest) -> IngestResponse:
     except ValueError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
     anomalies = sum(1 for result in results if result.is_anomaly)
+    total = len(results)
+    _METRIC_TOTAL.labels(_ENV_LABEL).inc(total)
+    _METRIC_ANOMALIES.labels(_ENV_LABEL).inc(anomalies)
+    _METRIC_RATE.labels(_ENV_LABEL).set(float(anomalies) / float(total) if total else 0.0)
+    _LAST_INGEST_TS.labels(_ENV_LABEL).set(_utc_now_timestamp())
     return IngestResponse(
         received=len(results),
         anomalies=anomalies,
@@ -127,6 +166,16 @@ def metrics() -> dict:
 @app.get("/dashboard", response_class=HTMLResponse)
 def dashboard() -> str:
     return DASHBOARD_HTML
+
+
+@app.get("/metrics/prometheus")
+def prometheus_metrics() -> Response:
+    payload = generate_latest(_PROM_REGISTRY)
+    return Response(content=payload, media_type=CONTENT_TYPE_LATEST)
+
+
+def _utc_now_timestamp() -> float:
+    return float(time.time())
 
 
 DASHBOARD_HTML = """
